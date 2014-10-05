@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.resources = "Assets/*.png"
   s.requires_arc = true
   
-  s.dependency 'TUSafariActivity', '~> 1.0.0'
+  s.dependency 'TUSafariActivity', '= 1.0.0'
   s.dependency 'ARChromeActivity'
 
 end
